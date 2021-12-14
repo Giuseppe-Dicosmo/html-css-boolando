@@ -1,31 +1,37 @@
 .container{
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
-    background: red;
 }
 
 .product{
-    height: 384px;
+    height: auto;
     width: 240px;
-    box-sizing: border-box;
-    border: 1px solid black;
-}
-
-.img_product{
-    width: 224px;
-    height: 334px;
-    box-sizing: border-box;
+    box-sizing: content-box;
     border: 1px solid black;
 }
 
 img{
     width: 224px;
     height: 334px;
+    margin: 0 6px;
 }
 
 .info_product{
     width: 224px;
-    height: 31px;
-    box-sizing: border-box;
+    height: auto;
+    margin: 0 6px;
+    box-sizing: content-box;
     border: 1px solid black;
+}
+
+div.info_product > div:nth-of-type(odd){
+    font-size: small;
+}
+
+.price{
+    color: red;
+}
+
+span{
+    text-decoration: line-through;
 }
