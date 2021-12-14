@@ -1,0 +1,31 @@
+.container{
+    width: 75%;
+    margin: 0 auto;
+    background: red;
+}
+
+.product{
+    height: 384px;
+    width: 240px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.img_product{
+    width: 224px;
+    height: 334px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+img{
+    width: 224px;
+    height: 334px;
+}
+
+.info_product{
+    width: 224px;
+    height: 31px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
